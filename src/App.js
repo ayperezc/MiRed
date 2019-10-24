@@ -1,6 +1,6 @@
 import React from "react";
 // import SolicitudAmistad from "./SolicitudAmistad";
-import MiRed from "./MiRed";
+import MiRed from "./components/MiRed";
 
 class App extends React.Component {
   constructor(props) {
