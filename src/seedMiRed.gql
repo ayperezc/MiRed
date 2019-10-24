@@ -1,0 +1,53 @@
+mutation {
+  putUsuario(
+    body: {
+      nombre: "Yarid"
+      apellido: "Perez"
+      email: "yarid@test.com"
+      password: "yaridtupapa"
+      identificacion: "1023"
+      nacionalidad: "col"
+      fecha_nac: "2019-10-24 16:05:16"
+      perf_personal: "vago"
+      perf_profesional: "vago tambien"
+    }
+  ) {
+    id
+  }
+}
+
+mutation {
+  putUsuario(
+    body: {
+      nombre: "Ivan"
+      apellido: "Delgado"
+      email: "ivan@test.com"
+      password: "yaridtupapa"
+      identificacion: "1024"
+      nacionalidad: "col"
+      fecha_nac: "2019-10-23 16:05:16"
+      perf_personal: "scrum"
+      perf_profesional: "master"
+    }
+  ) {
+    id
+  }
+}
+
+mutation {
+  putUsuario(
+    body: {
+      nombre: "Sebastian"
+      apellido: "Paez"
+      email: "sebas@test.com"
+      password: "yaridtupapa"
+      identificacion: "1025"
+      nacionalidad: "col"
+      fecha_nac: "2019-10-22 16:05:16"
+      perf_personal: "costeño"
+      perf_profesional: "soy muy aspero"
+    }
+  ) {
+    id
+  }
+}
